@@ -104,7 +104,7 @@ From the [Cloud Console](https://console.cloud.google.com),
   * Connect the monitor using the mini-HDMI connector, keyboard and a mouse with the USB hub.
   * Connect the Raspberry Pi to the power adapter.
 
-# Configure The Raspberry Pi
+# Configure the Raspberry Pi
 We configure the Raspberry Pi by going through the following steps.
   * Booth the Raspberry Pi.
   * Select Raspbian for the desired operating system.
