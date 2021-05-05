@@ -119,10 +119,14 @@ We configure the Raspberry Pi by going through the following steps.
   * Click on the Terminal icon to open a terminal window.
 
 # Install The Software
-All software on the Raspberry Pi must be up to date and needed packages are installed.
+* All software on the Raspberry Pi must be up to date and needed packages are installed.
 ------------------------------
-*Note: * 
 
     sudo apt-get update
     sudo apt-get install git
+    
+* Clone the project code for the heart rate receiver
+-------------------------------
 
+    git clone https://github.com/googlecodelabs/iotcore-heartrate
+    cd iotcore-heartrate
