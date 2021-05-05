@@ -59,7 +59,7 @@ The following are currently supported hardware targets:
 # Dataflow Template
 A Dataflow template is used to create a process that monitors a Pub/Sub topic for incoming messages and then move messages to the BigQuery.
 To create a Dataflow: 
-* from the **Cloud Console**, select Storage > **Browser.** > click **Bucket** button > **Create bucket**.
+* from the [Google Cloud Console](https://console.cloud.google.com), select Storage > **Browser.** > click **Bucket** button > **Create bucket**.
 * Choose a name for the storage bucket (must be globally unique accross all Google Cloud).
 * Select **Reginal** and make sure it is the sane region as the rest of your project's services > choose Location.
 * Click **Create** button.
