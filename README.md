@@ -33,7 +33,7 @@ The following are currently supported hardware targets:
 # Create a BigQuery Table
   * BigQuery is a serverless, highly scalable, low cost enterprise data warehouse to store data being stream from IoT devices.
   * Create a table that will hold all of the IoT heart rate data.
-    -From the cloud console select BigQuery > Click on the down arrow icon next to project name > select Create new dataset > Enter heartRateData > click Ok.
+    * From the cloud console select BigQuery > Click on the down arrow icon next to project name > select Create new dataset > Enter heartRateData > click Ok.
     
     
     
