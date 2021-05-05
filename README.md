@@ -105,6 +105,7 @@ From the [Cloud Console](https://console.cloud.google.com),
   * Connect the Raspberry Pi to the power adapter.
 
 # Configure The Raspberry Pi
+We configure the Raspberry Pi by going through the following steps.
   * Booth the Raspberry Pi.
   * Select Raspbian for the desired operating system.
   * Make certain your desire language is correct and click on install (Hard drive icon on the upper left portion of the window).
