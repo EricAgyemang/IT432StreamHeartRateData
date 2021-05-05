@@ -197,7 +197,7 @@ Check to make sure that the data is flowing into the **BigQuery** table.
 * From the [Cloud Console](https://console.cloud.google.com), go to [BigQuery](bigquery.cloud.google.com)
 * Under **Project name** click on the **Dataset(HeartRateData)**.
 * On the **table(heartRateDataTable)** click on **Query Table** button.
-* Add an asterisk to the SQL statement so it reads 'SELECT * FROM iot-heartrateit432.heartRateData.heartRateDataTable LIMIT 1000'
+* Add an asterisk to the SQL statement so it reads [SELECT * FROM iot-heartrateit432.heartRateData.heartRateDataTable LIMIT 1000]
 * Then add "ORDER BY timecollected ASC"
 * Click the **RUN QUERY** button
 
