@@ -101,4 +101,18 @@ From the [Cloud Console](https://console.cloud.google.com),
   Pin 17 (3V3)      | Not labelled
   Pin 20 (GND)      | GND
                     
-    
+  * Connect the monitor using the mini-HDMI connector, keyboard and a mouse with the USB hub.
+  * Connect the Raspberry Pi to the power adapter.
+
+# Configure The Raspberry Pi
+  * Booth the Raspberry Pi.
+  * Select Raspbian for the desired operating system.
+  * Make certain your desire language is correct and click on install (Hard drive icon on the upper left portion of the window).
+  * Click on the wifi icon at the top right of the screen.
+  * Select a network. If it is a secured network, enter the password(pre shared key).
+  * Click on the raspberry icon on top left of the screen.
+  * Select Preferences and the Raspberry Pi Configuration.
+  * From the interface tab, enable I2C and SSH.
+  * From the Localisation tab, set the Locale and Timezone. 
+  * Allow Pi to reboot.
+  * Click on the Terminal icon to open a terminal window.
