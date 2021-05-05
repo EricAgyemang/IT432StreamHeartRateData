@@ -142,7 +142,10 @@ We configure the Raspberry Pi by going through the following steps.
 
       chmod +x generate_keys.sh./generate_keys.sh
     
-* I order to transfer the created public key to your computer so that it can later be registered with IoT Core, use the Secure File Transfer Protocol(SFTP).  
+* I order to transfer the created public key to your computer so that it can later be registered with IoT Core,
+  use the Secure File Transfer Protocol(SFTP). 
+* The guid [here](https://www.codedonut.com/raspberry-pi/set-ssh-sftp-raspberry-pi/) to walk through the specifics
+  of using SFTP on various operating systems.
     
     
     
