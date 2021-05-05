@@ -78,7 +78,12 @@ To create a Dataflow:
     
 # SECTION 5
 # Create an IOT Core registry
-
+The cloud IoT Core is a fully managed service that allows the user to connect, manage, and ingest data from millions of global dispersed device. 
+From the [Cloud Console](https://console.cloud.google.com),
+* Select **Cloud IoT Core** > click on **device registry** > enter "heartrate" as the **Rsgistry ID**.
+* Select a **Region** close to you > disable HTTP protocol > select Pub/Sub topic that was created in Section 4 above.
+* Check the **MQTT** in the **Protocol** section. 
+* Click on **Create** button.
     
     
     
