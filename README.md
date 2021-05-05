@@ -71,14 +71,14 @@ To create a Dataflow:
 * Select **Reginal** and make sure it is the sane region as the rest of your project's services > choose Location.
 * Click **Create** button.
 * Select **Dataflow > Create Job from Template > enter a job name** > select **Pub/Sub Subscription to BigQuery template**
-* The reginal endpoint must match where the rest of the project resources are located. 
-* Fill in the remainder of the field and make sure they are align with the name of your storage bucket, Pub/Sub subscription, and BigQuery dataset and tablename.
+* The **reginal endpoint** must match where the rest of the project resources are located. 
+* Fill in the remainder of the field and make sure they are align with the name of your **storage bucket, Pub/Sub subscription**, and **BigQuery** dataset and **tablename**.
 * Click on **Run job**
 
     
 # SECTION 5
 # Create an IOT Core registry
-The cloud IoT Core is a fully managed service that allows the user to connect, manage, and ingest data from millions of global dispersed device. 
+The **cloud IoT Core** is a fully managed service that allows the user to connect, manage, and ingest data from millions of global dispersed device. 
 From the [Cloud Console](https://console.cloud.google.com),
 * Select **Cloud IoT Core** > click on **device registry** > enter "heartrate" as the **Rsgistry ID**.
 * Select a **Region** close to you > disable HTTP protocol > select Pub/Sub topic that was created in Section 4 above.
@@ -87,12 +87,12 @@ From the [Cloud Console](https://console.cloud.google.com),
     
 # Assemble Raspberry Pi and Heart Rate Reciever
   * If there are more than three pins, trim the header down to only three pins.
-  * Solder the header pins to the sensor board.
-  * Insall the hammer header pins into the Raspberry Pi.
-  * Format the SD card and install the New Out Of Box Softwafare (NOOBS) installer following the steps [here](https://www.raspberrypi.org/documentation/installation/noobs.md).
-  * Insert the SD card into the Raspberry Pi(I recommend SD card with 32 GB).
+  * Solder the header pins to the **sensor board**.
+  * Insall the **hammer header pins** into the Raspberry Pi.
+  * Format the **SD card** and install the **New Out Of Box Softwafare** (NOOBS) installer following the steps [here](https://www.raspberrypi.org/documentation/installation/noobs.md).
+  * Insert the **SD card** into the Raspberry Pi(I recommend SD card with 32 GB).
   * Place the Raspberry Pi into its case.
-  * Use the breadboard wires to connect the heart rate receiver to the Raspberry Pi.
+  * Use the **breadboard wires** to connect the heart rate receiver to the Raspberry Pi.
  
  
   Raspberry Pi pin  | Receiver Connection 
@@ -101,22 +101,22 @@ From the [Cloud Console](https://console.cloud.google.com),
   Pin 17 (3V3)      | Not labelled
   Pin 20 (GND)      | GND
                     
-  * Connect the monitor using the mini-HDMI connector, keyboard and a mouse with the USB hub.
-  * Connect the Raspberry Pi to the power adapter.
+  * Connect the monitor using the **mini-HDMI connector**, keyboard and a mouse with the **USB hub**.
+  * Connect the Raspberry Pi to the **power adapter**.
 
 # Configure the Raspberry Pi
 We configure the Raspberry Pi by going through the following steps.
   * Booth the Raspberry Pi.
-  * Select Raspbian for the desired operating system.
+  * Select **Raspbian** for the desired operating system.
   * Make certain your desire language is correct and click on install (Hard drive icon on the upper left portion of the window).
-  * Click on the wifi icon at the top right of the screen.
-  * Select a network. If it is a secured network, enter the password(pre shared key).
-  * Click on the raspberry icon on top left of the screen.
+  * Click on the **wifi icon** at the top right of the screen.
+  * Select a **network**. If it is a secured network, enter the password(pre shared key).
+  * Click on the **raspberry icon** on top left of the screen.
   * Select Preferences and the Raspberry Pi Configuration.
-  * From the interface tab, enable I2C and SSH.
-  * From the Localisation tab, set the Locale and Timezone. 
+  * From the interface tab, enable **I2C** and **SSH**.
+  * From the Localisation tab, set the **Locale** and **Timezone**. 
   * Allow Pi to reboot.
-  * Click on the Terminal icon to open a terminal window.
+  * Click on the **Terminal icon** to open a terminal window.
 
 # Install The Software
 * All software on the Raspberry Pi must be up to date and needed packages are installed.
@@ -142,10 +142,15 @@ We configure the Raspberry Pi by going through the following steps.
 
       chmod +x generate_keys.sh./generate_keys.sh
     
-* I order to transfer the created public key to your computer so that it can later be registered with IoT Core,
-  use the Secure File Transfer Protocol(SFTP). 
+* I order to transfer the created **public key** to your computer so that it can later be registered with IoT Core,
+  use the **Secure File Transfer Protocol**(SFTP). 
 * The guid [here](https://www.codedonut.com/raspberry-pi/set-ssh-sftp-raspberry-pi/) to walk through the specifics
-  of using SFTP on various operating systems.
+  of using **SFTP** on various operating systems.
+* In order to connect via **SFTP**, the **IP address** of the Raspberry Pi must be known. Open the **terminal window** on the 
+  Raspberry Pi and type **"ifconfig"** to get the IP address required. The IP address will be listed in the wlan0 block
+  of the information after the word **"inet"**.
+* Once you are connected with **SFTP**, you need to navigate to the directory where the security **certificate/keys** are 
+  located (**/home/pi/.ssh**) and will want to copy the public key **(ec_public.pub)**
     
     
     
