@@ -25,7 +25,7 @@ The following are currently supported hardware targets:
     * You can use the default project ("My First Project") or create a new project by using [Manage resources page](https://console.cloud.google.com/cloud-resource-manager) eg: iot-heartrate. The Project ID must be unique name accross all Google Cloud projects
  
   - Enable APIs
-    * This project uses the IoT Core, Pub/Sub, Dataflow, and Compute Engine, so enable the Cloud IoT API by opening the [Google Cloud IoT Core console](http://console.cloud.google.com/iot/).
+    * This project uses the **IoT Core, Pub/Sub, Dataflow, and Compute Engine**, so enable the Cloud IoT API by opening the [Google Cloud IoT Core console](http://console.cloud.google.com/iot/).
     * Repeat this process for the **Pub/Sub, Dataflow, and Compute Engine** by clicking the **Enable API** tab.
     
      
@@ -34,11 +34,13 @@ The following are currently supported hardware targets:
   * BigQuery is a serverless, highly scalable, low cost enterprise data warehouse to store data being stream from IoT devices.
   * Create a table that will hold all of the IoT heart rate data.
     * From the **cloud console** select **BigQuery** > Click on the down arrow icon next to project name > select **Create new dataset** > **Enter heartRateData** > click **Ok**.
-    * Click "**+**" sign next to your Dateset to create a new table
+    * Click **"+"** sign next to your Dateset to create a new table
     * From **Source Data**, select **Create empty table**. 
     * For Destination table name, enter heartRateDataTable.
-    * Under **Schema**, click the **Add Field** botton until there are a total of 4 fields. Fill in the fields by making sure to also select the appropriate Type for each field. 
-    * Click on the **Create Table** button.
+    * Under **Schema**, click the **Add Field** botton until there are a total of 4 fields. Fill in the fields by making sure to also select the appropriate **Type** for each field. 
+    * Next, Click on the **Create Table** button.
+
+
     
     
     
