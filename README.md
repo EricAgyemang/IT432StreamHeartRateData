@@ -4,9 +4,14 @@ This is an example of how to build a data pipeline that starts with an Internet 
 
 This example is not an officially supported Google product, does not have a SLA/SLO, and should not be used in production
 
+
 # Section 1
 # Supporting Hardware Targets
 The following are currently supported hardware targets:
-* Raspberry Pi Zero W with power supply 
+* Raspberry Pi 3 Model B with power supply 
 * SD memorry card and case
 * USB card reader
+* Female-to-male breadboard wires
+* Polar T34 Heart Rate Transmitter and Polar Heart Rate receiver
+* A computer monitor or TV with HDMI input, HDMI cable, Keyboard and a mouse.
+* A Google Cloud Platform account (New users are eligible for a $300 free trial)
