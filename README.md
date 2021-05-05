@@ -185,7 +185,8 @@ The IoT Core is now ready to receive communication from the Raspberry Pi.
 * You now have a completed IoT heart rate sensor that is streaming data to Google Cloud.
 
 -------------------------------
-    
+ *Note:* 
+ 
     1. If you would like to move around and collect data, it is possible to use a USB Battery Pack to power the Raspberry Pi for several hours. .1
     2. If you will be going beyond WiFi range, using your cellphone as a WiFi hotspot and configuring the Raspberry Pi to connect to it can allow you to travel  anywhere that your cellular signal allows while continuing to stream heart rate data to the Google Cloud.
 
