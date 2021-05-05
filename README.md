@@ -17,6 +17,12 @@ The following are currently supported hardware targets:
 * A Google Cloud Platform account (New users are eligible for a $300 free trial)
 * Gmail account
 
+-------------
+*Note:*
+1. The Raspberry Pi Zero W is recommended for this codelab but we use Raspberry Pi 3 Model B instead, which also works.
+2. The Raspberry Pi Zero W require the programmer to have GPIO Hammer Headers or USB hub(to allow for connecting a keyboard and mouse into the USB port ib the Raspberry Pi), and soldering iron with solder
+
+
 
 # SECTION 2
 # Getting Set Up
