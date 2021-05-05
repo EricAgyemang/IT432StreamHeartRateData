@@ -21,4 +21,5 @@ The following are currently supported hardware targets:
 # SECTION 2
 # Getting Set Up
   > Environment Setup
+  
     Sign-in to [Google Cloud Platform console](https://cloud.google.com/) 
