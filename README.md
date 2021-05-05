@@ -20,4 +20,4 @@ The following are currently supported hardware targets:
 
 # SECTION 2
 # Getting Set Up
-> Environment Setup
+|> Environment Setup
