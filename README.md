@@ -36,3 +36,4 @@ The following are currently supported hardware targets:
     -From the cloud console select BigQuery > Click on the down arrow icon next to project name > select Create new dataset > Enter heartRateData > click Ok.
     
     
+    
