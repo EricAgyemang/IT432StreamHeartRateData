@@ -191,4 +191,26 @@ The IoT Core is now ready to receive communication from the Raspberry Pi.
     2. If you will be going beyond WiFi range, using your cellphone as a WiFi hotspot and configuring the Raspberry Pi to connect to it can allow you to travel  anywhere that your cellular signal allows while continuing to stream heart rate data to the Google Cloud.
     3. If you receive an error message, the most common mistake is to omit the "–" in the commands above.
 
-    
+# SECTION 8
+# BigQuery Data
+Check to make sure that the data is flowing into the **BigQuery** table.
+* From the [Cloud Console](https://console.cloud.google.com), go to [BigQuery](bigquery.cloud.google.com)
+* Under **Project name** click on the **Dataset(HeartRateData)**.
+* On the **table(heartRateDataTable)** click on **Query Table** button.
+* Add an asterisk to the SQL statement so it reads SELECT * FROM `iot-heartrateit432.heartRateData.heartRateDataTable` LIMIT 1000
+* Then add "ORDER BY timecollected ASC"
+* Click the **RUN QUERY** button
+
+If you see results, then the data is flowing properly. 
+
+
+
+
+
+
+
+
+
+
+
+
