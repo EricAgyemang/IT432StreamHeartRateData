@@ -94,9 +94,9 @@ From the [Cloud Console](https://console.cloud.google.com),
   * Place the Raspberry Pi into its case.
   * Use the breadboard wires to connect the heart rate receiver to the Raspberry Pi.
  
- ________________________________________
+ 
   Raspberry Pi pin  | Receiver Connection 
-  ________________  |____________________
+  ------------------|--------------------
                     |
                     |
                     |
