@@ -201,7 +201,7 @@ Check to make sure that the data is flowing into the **BigQuery** table.
 * Then add "ORDER BY timecollected ASC"
 * Click the **RUN QUERY** button
 
-If you see results, then the data is flowing properly. 
+If you see results, then the data is flowing properly, and you are now ready to visualize the data.
 
 
 
