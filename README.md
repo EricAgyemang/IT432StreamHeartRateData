@@ -85,6 +85,20 @@ From the [Cloud Console](https://console.cloud.google.com),
 * Check the **MQTT** in the **Protocol** section. 
 * Click on **Create** button.
     
-    
-    
+# Assemble Raspberry Pi and Heart Rate Reciever
+  * If there are more than three pins, trim the header down to only three pins.
+  * Solder the header pins to the sensor board.
+  * Insall the hammer header pins into the Raspberry Pi.
+  * Format the SD card and install the New Out Of Box Softwafare (NOOBS) installer following the steps [here](https://www.raspberrypi.org/documentation/installation/noobs.md).
+  * Insert the SD card into the Raspberry Pi(I recommend SD card with 32 GB).
+  * Place the Raspberry Pi into its case.
+  * Use the breadboard wires to connect the heart rate receiver to the Raspberry Pi.
+ 
+ ________________________________________
+  Raspberry Pi pin  | Receiver Connection 
+  ________________  |____________________
+                    |
+                    |
+                    |
+                    
     
