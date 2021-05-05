@@ -131,7 +131,16 @@ We configure the Raspberry Pi by going through the following steps.
     git clone https://github.com/googlecodelabs/iotcore-heartrate
     cd iotcore-heartrate
     
+* Ensure the the required core packages are all installed.
+------------------------------
+
+    chmod +x initialsoftware.sh./initialsoftware.sh
     
+* Create a security certificate
+* In order to communicate with Google Cloud, a security certificate must be generated and then registered with IoT core.
+-------------------------------
+
+      chmod +x generate_keys.sh./generate_keys.sh
     
     
     
