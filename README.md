@@ -121,6 +121,6 @@ We configure the Raspberry Pi by going through the following steps.
 # Install The Software
 All software on the Raspberry Pi must be up to date and needed packages are installed.
 ------------------------------
-sudo apt-get update
-sudo apt-get install git
+  sudo apt-get update
+  sudo apt-get install git
 
