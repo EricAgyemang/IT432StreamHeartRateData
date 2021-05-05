@@ -130,3 +130,11 @@ We configure the Raspberry Pi by going through the following steps.
 
     git clone https://github.com/googlecodelabs/iotcore-heartrate
     cd iotcore-heartrate
+    
+    
+    
+    
+    
+    
+    
+    
