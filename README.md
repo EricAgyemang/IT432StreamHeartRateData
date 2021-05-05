@@ -15,7 +15,9 @@ The following are currently supported hardware targets:
 * Polar T34 Heart Rate Transmitter and Polar Heart Rate receiver
 * A computer monitor or TV with HDMI input, HDMI cable, Keyboard and a mouse.
 * A Google Cloud Platform account (New users are eligible for a $300 free trial)
+* Gmail account
 
 
 # SECTION 2
 # Getting Set Up
+> Environment Setup
