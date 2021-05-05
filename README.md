@@ -40,7 +40,7 @@ The following are currently supported hardware targets:
     * Under **Schema**, click the **Add Field** botton until there are a total of 4 fields. Fill in the fields by making sure to also select the appropriate **Type** for each field. 
     * Next, Click on the **Create Table** button.
 
-> ** Note:** Any spelling errors for the field names or the table name can cause issues when Cloud Functions attempts to add data later in this codelab 
+> **Note:** Any spelling errors for the field names or the table name can cause issues when Cloud Functions attempts to add data later in this codelab 
     
     
     
