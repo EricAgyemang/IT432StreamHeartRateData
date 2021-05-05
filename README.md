@@ -151,6 +151,24 @@ We configure the Raspberry Pi by going through the following steps.
   of the information after the word **"inet"**.
 * Once you are connected with **SFTP**, you need to navigate to the directory where the security **certificate/keys** are 
   located (**/home/pi/.ssh**) and will want to copy the public key **(ec_public.pub)**
-    
-    
+  
+# SECTION 6
+# Add Device to the IoT Core Registry
+From the [Cloud Console](https://console.cloud.google.com), return to IoT core.
+* Click the **heartrate registry**.
+* Click **Add device**.
+* For the **Device ID**, enter raspberryHeartRate.
+* For **public key format**, select **ES256**.
+* For **authentication**, either choose **manual** and then copy/paste the value from the key file into
+  the public key value area or choose **upload** and then upload the key from your computer.
+* Click **Add**.
+
+
+
+
+
+
+
+
+
     
