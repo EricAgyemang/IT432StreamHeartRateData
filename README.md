@@ -205,12 +205,12 @@ If you see results, then the data is flowing properly and you are now ready to v
 
 # SECTION 9
 # Data Visualization Using Google Sheets
-* From the Query results, click on **save to Google Sheets**.
+* From the **Query results**, click on **save to Google Sheets**.
 * When the results have been saved, click on the link that says **Click to View**
 * Highlight the two columns that contain the **timecollected** and **heartrate**.
 * Select **Insert** and **Chart** from the top menue
 * If chart appears as a histogram, use the **Chart Editor** on the right side of the screen to select the drop down optionds for Chart type.
-* Select a line graph (top left option).
+* Select a **line graph** (top left option).
  
 
 
