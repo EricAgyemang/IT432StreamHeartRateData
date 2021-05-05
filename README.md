@@ -22,3 +22,4 @@ The following are currently supported hardware targets:
 # Getting Set Up
   * Environment Setup
     Sign-in to [Google Cloud Platform console](http://console.cloud.google.com/) 
+    You can use the default project ("My First Project") or create a new project by using [Manage resources page](https://console.cloud.google.com/cloud-resource-manager)
