@@ -117,3 +117,10 @@ We configure the Raspberry Pi by going through the following steps.
   * From the Localisation tab, set the Locale and Timezone. 
   * Allow Pi to reboot.
   * Click on the Terminal icon to open a terminal window.
+
+# Install The Software
+All software on the Raspberry Pi must be up to date and needed packages are installed.
+------------------------------
+sudo apt-get update
+sudo apt-get install git
+------------------------------
