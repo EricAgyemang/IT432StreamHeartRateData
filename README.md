@@ -19,8 +19,8 @@ The following are currently supported hardware targets:
 
 -------------
 *Note:*
-1. The Raspberry Pi Zero W is recommended for this codelab but we use Raspberry Pi 3 Model B instead, which also works.
-2. The Raspberry Pi Zero W require the programmer to have GPIO Hammer Headers or USB hub(to allow for connecting a keyboard and mouse into the USB port ib the Raspberry Pi), and soldering iron with solder
+      1. The Raspberry Pi Zero W is recommended for this codelab but we use Raspberry Pi 3 Model B instead, which also works.
+      2. The Raspberry Pi Zero W require the programmer to have GPIO Hammer Headers or USB hub(to allow for connecting a keyboard and mouse into the USB port ib the Raspberry Pi), and soldering iron with solder
 
 
 
@@ -49,9 +49,9 @@ The following are currently supported hardware targets:
 ----------------------------
 *Note:* 
  
- 1. Any spelling errors for the field names or the table name can cause issues when Cloud Functions attempts to add data later in this codelab.
- 2. If you did make a mistake in creating the table, hover over the table name of the left side if the window, click the down arrow icon > click on Delete Table. 
- 3. Repeate the steps in SECTION 3 above to create the table.
+      1. Any spelling errors for the field names or the table name can cause issues when Cloud Functions attempts to add data later in this codelab.
+      2. If you did make a mistake in creating the table, hover over the table name of the left side if the window, click the down arrow icon > click on Delete Table. 
+      3. Repeate the steps in SECTION 3 above to create the table.
     
     
  # SECTION 4
