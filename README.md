@@ -209,7 +209,8 @@ If you see results, then the data is flowing properly and you are now ready to v
 * When the results have been saved, click on the link that says **Click to View**
 * Highlight the two columns that contain the **timecollected** and **heartrate**.
 * Select **Insert** and **Chart** from the top menue
-* If chart appears as a histogram, use the **Chart Editor** on the right side of the screen to select the drop down optionds for Chart type.
+* If chart appears as a histogram, use the **Chart Editor** on the right side of the screen 
+  to select the drop down optionds for Chart type.
 * Select a **line graph** (top left option).
  
 # For More Information
@@ -220,7 +221,12 @@ If you see results, then the data is flowing properly and you are now ready to v
 * [Google Cloud IoT Core with Raspberry Pi](https://www.youtube.com/watch?v=3Zwlj9x96Jg)
 * [Cloud IoT step-by-step: Connecting Raspberry PI + Python](https://medium.com/google-cloud/cloud-iot-step-by-step-connecting-raspberry-pi-python-2f27a2893ab5)
 * [How to Make A Proper Connect between Raspberry pi and gcloud-IoT](https://www.dckap.com/blog/how-to-make-a-proper-connect-between-raspberry-pi-and-gcloud-iot/)
+* [The Raspberry Pi: Everything You Need to Know to Get Started](https://www.makeuseof.com/tag/raspberry-pi-faq/)
+* [Raspberry Pi FAQ](https://www.raspberrypi.org/documentation/faqs/)
 
+# DISCLAIMER
+This project is not an official Google project. It is not supported by Google and Google specifically disclaims
+all warranties as to its quality, merchantability, or fitness for a particular purpose.
 
 
 
