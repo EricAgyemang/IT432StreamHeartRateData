@@ -2,7 +2,7 @@
 # IT432 Stream Heart Rate Data
 This is an example of how to build a data pipeline that starts with an Internet of Things (IoT) device that captures the heart rate, leverage IoT core to securely publish the data to a message queue where it will then be transported into a data warehouse. Here, a Raspberry Pi with a heart rate sensor is used for the IoT device and components of Google cloud platform will form the data pipeline.
 
-This example is not an officially supported Google product, does not have a SLA/SLO, and should not be used in production
+This example is not an officially supported Google product, does not have a **SLA/SLO**, and should not be used in production
 
 
 # SECTION 1
@@ -112,7 +112,7 @@ We configure the Raspberry Pi by going through the following steps.
   * Click on the **wifi icon** at the top right of the screen.
   * Select a **network**. If it is a secured network, enter the password(pre shared key).
   * Click on the **raspberry icon** on top left of the screen.
-  * Select Preferences and the Raspberry Pi Configuration.
+  * Select **Preferences** and the **Raspberry Pi Configuration**.
   * From the interface tab, enable **I2C** and **SSH**.
   * From the Localisation tab, set the **Locale** and **Timezone**. 
   * Allow Pi to reboot.
