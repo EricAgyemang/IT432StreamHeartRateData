@@ -124,6 +124,5 @@ All software on the Raspberry Pi must be up to date and needed packages are inst
 *Note: * 
 
     sudo apt-get update
-    
     sudo apt-get install git
 
