@@ -97,8 +97,8 @@ From the [Cloud Console](https://console.cloud.google.com),
  
   Raspberry Pi pin  | Receiver Connection 
   ------------------|--------------------
-  Pin 16 (GPIO23)   | <Not labelled>
-  Pin 17 (3V3)      | <Not labelled>
+  Pin 16 (GPIO23)   | Not labelled
+  Pin 17 (3V3)      | Not labelled
   Pin 20 (GND)      | GND
                     
     
