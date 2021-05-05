@@ -28,6 +28,11 @@ The following are currently supported hardware targets:
     * This project uses the IoT Core, Pub/Sub, Dataflow, and Compute Engine, so enable the Cloud IoT API by opening the [Google Cloud IoT Core console](http://console.cloud.google.com/iot/).
     * Repeat this process for the Pub/Sub, Dataflow, and Compute Engine by clicking the "Enable API" tab.
     
+     
+# SECTION 3
+# Create a BigQuery Table
+  * BigQuery is a serverless, highly scalable, low cost enterprise data warehouse to store data being stream from IoT devices.
+  * Create a table that will hold all of the IoT heart rate data.
+    -From the cloud console select BigQuery > Click on the down arrow icon next to project name > select Create new dataset > Enter heartRateData > click Ok.
     
- 
     
