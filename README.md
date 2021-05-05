@@ -55,7 +55,19 @@ The following are currently supported hardware targets:
    * To allow other google cloud services to access those messages, we create a subscription. Clicking on the three dot menu to the right of the topic that was created > click on the **" :heavy_plus_sign: New subscription"** > enter **"heartratedata"** as subscription name > pull > click on **Create**.
  
     
-    
+# SECTION 4 
+# Dataflow Template
+A Dataflow template is used to create a process that monitors a Pub/Sub topic for incoming messages and then move messages to the BigQuery.
+To create a Dataflow: 
+* from the **Cloud Console**, select Storage > **Browser.** > click **Bucket** button > **Create bucket**.
+* Choose a name for the storage bucket (must be globally unique accross all Google Cloud).
+* Select **Reginal** and make sure it is the sane region as the rest of your project's services > choose Location.
+* Click **Create** button.
+* Select **Dataflow > Create Job from Template > enter a job name** > select **Pub/Sub Subscription to BigQuery template**
+* The reginal endpoint must match where the rest of the project resources are located. 
+* Fill in the remainder of the field and make sure they are align with the name of your storage bucket, Pub/Sub subscription, and BigQuery dataset and tablename.
+* Click on **Run job**
+
     
     
     
