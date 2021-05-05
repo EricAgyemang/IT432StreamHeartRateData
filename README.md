@@ -48,3 +48,17 @@ The following are currently supported hardware targets:
        3. Repeate the steps in SECTION 3 above to create the table.
     
     
+ # SECTION 4
+ # Create a Pub/Sub Topic and Subscription
+   Cloud Pub/Sub is a simple, reliable, scalable foundation for streaming data and event-driven computing systems. This will be used to pull IoT messages from.
+   * From the [Google Cloud Console](https://console.cloud.google.com), select **Pub/Sub** > **Topics** > **Create a topic** > enter **"heartratedata"** as a topic name > click **Create**.
+   * To allow other google cloud services to access those messages, we create a subscription. Clicking on the three dot menu to the right of the topic that was created > click on the **"+ New subscription"** > enter **"heartratedata"** as subscription name > pull > click on **Create**.
+ 
+    
+    
+    
+    
+    
+    
+    
+    
