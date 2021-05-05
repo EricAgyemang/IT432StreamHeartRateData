@@ -166,6 +166,16 @@ From the [Cloud Console](https://console.cloud.google.com), return to IoT core.
 
 The IoT Core is now ready to receive communication from the Raspberry Pi.
 
+# SECTION 7
+# Start the Data.
+# Data Streaming from Raspberry Pi
+* Put on the heart rate strap and the start the script that will receive the heartbeat signals.
+* Calculate heart rate in beats per minutes and push the data to Google Cloud.
+* if you are not in the **/home/pi/iotcore-heartrate** directly on the Raspberry Pi, move there first.
+-------------------------------
+    
+    cd /home/pi/iotcore-heartrate
+    
 
 
 
