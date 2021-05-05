@@ -40,12 +40,12 @@ The following are currently supported hardware targets:
     * Under **Schema**, click the **Add Field** botton until there are a total of 4 fields. Fill in the fields by making sure to also select the appropriate **Type** for each field. 
     * Next, Click on the **Create Table** button.
 
+----------------------------
 > *Note:*  
        
           1. Any spelling errors for the field names or the table name can cause issues when Cloud Functions attempts to add data later in this codelab.
  
-          2. If you did make a mistake in creating the table, hover over the table name of the left side if the window, click the down arrow icon > click on Delete Table.
-          
+          2. If you did make a mistake in creating the table, hover over the table name of the left side if the window, click the down arrow icon > click on Delete Table. 
           4. Repeate the steps in SECTION 3 above to create the table.
     
     
