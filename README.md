@@ -136,14 +136,13 @@ We configure the Raspberry Pi by going through the following steps.
 
     chmod +x initialsoftware.sh./initialsoftware.sh
     
-* Create a security certificate
+# Create a security certificate
 * In order to communicate with Google Cloud, a security certificate must be generated and then registered with IoT core.
 -------------------------------
 
       chmod +x generate_keys.sh./generate_keys.sh
     
-    
-    
+* I order to transfer the created public key to your computer so that it can later be registered with IoT Core, use the Secure File Transfer Protocol(SFTP).  
     
     
     
