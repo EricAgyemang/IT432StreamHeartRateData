@@ -76,7 +76,9 @@ To create a Dataflow:
 * Click on **Run job**
 
     
-    
+# SECTION 5
+# Create an IOT Core registry
+
     
     
     
