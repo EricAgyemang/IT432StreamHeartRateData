@@ -163,7 +163,7 @@ From the [Cloud Console](https://console.cloud.google.com), return to IoT core.
 * For **authentication**, either choose **manual** and then copy/paste the value from the key file into
   the public key value area or choose **upload** and then upload the key from your computer.
 * Click **Add**.
-
+The IoT Core is now ready to receive communication from the Raspberry Pi.
 
 
 
