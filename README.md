@@ -226,12 +226,12 @@ If you see results, then the data is flowing properly and you are now ready to v
 * [Using IoT Core gateways with a Raspberry Pi](https://cloud.google.com/community/tutorials/cloud-iot-gateways-rpi)
 * [Rapid Hardware Prototyping: Connect Your Raspberry Pi to Google Cloud IoT](https://lembergsolutions.com/blog/rapid-hardware-prototyping-connect-your-raspberry-pi-google-cloud-iot)
 * [Tutorial on Google IoT Core with Raspberry Pi to visualize the sensor data](https://iot4beginners.com/tutorial-on-google-iot-core-with-raspberry-pi-to-visualize-the-sensor-data/)
+* [How to create and connect to Google Cloud Virtual Machine with SSH](https://www.freecodecamp.org/news/how-to-create-and-connect-to-google-cloud-virtual-machine-with-ssh-81a68b8f74dd/)
 * [Google Cloud IoT Core with Raspberry Pi](https://www.youtube.com/watch?v=3Zwlj9x96Jg)
 * [Cloud IoT step-by-step: Connecting Raspberry PI + Python](https://medium.com/google-cloud/cloud-iot-step-by-step-connecting-raspberry-pi-python-2f27a2893ab5)
 * [How to Make A Proper Connect between Raspberry pi and gcloud-IoT](https://www.dckap.com/blog/how-to-make-a-proper-connect-between-raspberry-pi-and-gcloud-iot/)
 * [The Raspberry Pi: Everything You Need to Know to Get Started](https://www.makeuseof.com/tag/raspberry-pi-faq/)
 * [Raspberry Pi FAQ](https://www.raspberrypi.org/documentation/faqs/)
-* [How to create and connect to Google Cloud Virtual Machine with SSH](https://www.freecodecamp.org/news/how-to-create-and-connect-to-google-cloud-virtual-machine-with-ssh-81a68b8f74dd/)
 
 # DISCLAIMER
 This project is not an official Google project. It is not supported by Google and Google specifically disclaims
