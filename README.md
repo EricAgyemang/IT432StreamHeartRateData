@@ -213,6 +213,11 @@ If you see results, then the data is flowing properly and you are now ready to v
   to select the drop down optionds for Chart type.
 * Select a **line graph** (top left option).
  
+# SUMMARY
+
+ 
+ 
+ 
 # For More Information
 * [Using IoT Core to Stream Heart Rate Data](https://codelabs.developers.google.com/codelabs/iotcore-heartrate#0)
 * [Using IoT Core gateways with a Raspberry Pi](https://cloud.google.com/community/tutorials/cloud-iot-gateways-rpi)
