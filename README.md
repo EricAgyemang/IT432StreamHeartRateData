@@ -9,20 +9,20 @@ This example is not an officially supported Google product, does not have a **SL
 # SECTION 1
 # Supporting Hardware Targets
 The following are currently supported hardware targets:
-* Raspberry Pi 3 Model B with power supply 
-* SD memorry card and case
-* USB card reader
-* Female-to-male breadboard wires
-* Polar T34 Heart Rate Transmitter and Polar Heart Rate receiver
+* Raspberry Pi 3 Model B with power supply. 
+* SD memorry card and case.
+* USB card reader.
+* Female-to-male breadboard wires.
+* Polar T34 Heart Rate Transmitter and Polar Heart Rate receiver.
 * A computer monitor or TV with HDMI input, HDMI cable, Keyboard and a mouse.
-* A Google Cloud Platform account (New users are eligible for a $300 free trial)
-* Gmail account
+* A Google Cloud Platform account (New users are eligible for a $300 free trial).
+* Gmail account.
 
 -------------
 *Note:*
 
       1. The Raspberry Pi Zero W is recommended for this codelab but we use Raspberry Pi 3 Model B instead, which also works.
-      2. The Raspberry Pi Zero W require the programmer to have GPIO Hammer Headers or USB hub(to allow for connecting a keyboard and mouse into the USB port ib the Raspberry Pi), and soldering iron with solder
+      2. The Raspberry Pi Zero W require the programmer to have GPIO Hammer Headers or USB hub(to allow for connecting a keyboard and mouse into the USB port ib the Raspberry Pi), and soldering iron with solder.
 
 
 
@@ -30,7 +30,9 @@ The following are currently supported hardware targets:
 # Getting Set Up
   - Environment Setup
     * Sign-in to [Google Cloud Platform console](http://console.cloud.google.com/) 
-    * You can use the default project ("My First Project") or create a new project by using [Manage resources page](https://console.cloud.google.com/cloud-resource-manager) eg: iot-heartrate. The Project ID must be unique name accross all Google Cloud projects
+    * You can use the default project ("My First Project") or create a new project by using [Manage resources page](https://console.cloud.google.com/cloud-resource-manager). This project uses **iot-heartrate** as the project ID. 
+    * The Project ID must be unique name accross all Google Cloud projects.
+    * Go to [GitBash](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) or [OpenSSL](http://lunar.lyris.com/help/lm_help//11.3/Content/generating_public_and_private_keys.html) or [Google Cloud shell](https://www.cyberithub.com/5-best-steps-to-register-ssh-keys-in-google-cloudgcp/), follow the instructions given to create the pair of keys(private key and public key).
  
   - Enable APIs
     * This project uses the **IoT Core, Pub/Sub, Dataflow, and Compute Engine**, so enable the Cloud IoT API by opening the [Google Cloud IoT Core console](http://console.cloud.google.com/iot/).
@@ -143,7 +145,7 @@ We configure the Raspberry Pi by going through the following steps.
 
       chmod +x generate_keys.sh./generate_keys.sh
     
-* I order to transfer the created **public key** to your computer so that it can later be registered with IoT Core,
+* In order to transfer the created **key** to your computer so that it can later be registered with IoT Core,
   use the **Secure File Transfer Protocol**(SFTP). 
 * The guid [here](https://www.codedonut.com/raspberry-pi/set-ssh-sftp-raspberry-pi/) to walk through the specifics
   of using **SFTP** on various operating systems.
@@ -151,7 +153,7 @@ We configure the Raspberry Pi by going through the following steps.
   Raspberry Pi and type **"ifconfig"** to get the IP address required. The IP address will be listed in the wlan0 block
   of the information after the word **"inet"**.
 * Once you are connected with **SFTP**, you need to navigate to the directory where the security **certificate/keys** are 
-  located (**/home/pi/.ssh**) and will want to copy the public key **(ec_public.pub)**
+  located (**/home/pi/.ssh**) and will want to copy the key **(ec_public.pub)**
   
 # SECTION 6
 # Add Device to the IoT Core Registry
@@ -169,6 +171,7 @@ The IoT Core is now ready to receive communication from the Raspberry Pi.
 # SECTION 7
 # Start the Data.
 # Data Streaming from Raspberry Pi
+* Go to [Putty](https://www.youtube.com/watch?v=uNStEDWnPxY), follow the instructions to Connect the setput to via Putty  
 * Put on the heart rate strap and the start the script that will receive the heartbeat signals.
 * Calculate heart rate in beats per minutes and push the data to Google Cloud.
 * if you are not in the **/home/pi/iotcore-heartrate** directly on the Raspberry Pi, move there first.
@@ -228,6 +231,7 @@ If you see results, then the data is flowing properly and you are now ready to v
 * [How to Make A Proper Connect between Raspberry pi and gcloud-IoT](https://www.dckap.com/blog/how-to-make-a-proper-connect-between-raspberry-pi-and-gcloud-iot/)
 * [The Raspberry Pi: Everything You Need to Know to Get Started](https://www.makeuseof.com/tag/raspberry-pi-faq/)
 * [Raspberry Pi FAQ](https://www.raspberrypi.org/documentation/faqs/)
+* [How to create and connect to Google Cloud Virtual Machine with SSH](https://www.freecodecamp.org/news/how-to-create-and-connect-to-google-cloud-virtual-machine-with-ssh-81a68b8f74dd/)
 
 # DISCLAIMER
 This project is not an official Google project. It is not supported by Google and Google specifically disclaims
