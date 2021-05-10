@@ -217,9 +217,13 @@ If you see results, then the data is flowing properly and you are now ready to v
  
 # SUMMARY
 This project build up data pipeline that start with an Internet of Things (IoT) device that captures the heart 
-rate collected from a patient, leverage IoT core to securely public data to a message queue where it is transported into
+rate collected from a patient, leverage IoT core to securely publish the data to a message queue where it is transported into
 a data warehouse. In this project, a Raspberry pi with a heart rate sensor in sued for the IoT device and the components of the Google 
-Cloud platform forms the data pipeline.
+Cloud platform forms the data pipeline. 
+Section 1 outlines the supporting hardware targets and hardware requirements, while Section 2 gives the detailes of getting the setup 
+extablished on the Google Cloud platform. The key areas of section 2 is the creation and use of project ID, and GitBush/openSSL/Google 
+Cloud Shell for creating the the two pair of keys (private key and public key) to be used for adding devices to the IoT core registry.
+   
 
  
  
