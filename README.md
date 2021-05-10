@@ -20,7 +20,7 @@ The following are currently supported hardware targets:
 -------------
 *Note:*
 
-      1. The Raspberry Pi Zero W is recommended for this codelab but we use Raspberry Pi 3 Model B instead, which also works.
+      1. The Raspberry Pi Zero W is recommended for this codelab but this project uses the Raspberry Pi 3 Model B which works.
       2. The Raspberry Pi Zero W require the programmer to have GPIO Hammer Headers or USB hub(to allow for connecting a keyboard and mouse into the USB port ib the Raspberry Pi), and soldering iron with solder.
 
 
@@ -221,9 +221,10 @@ patient, leverage IoT core to securely publish the data to a message queue where
 a Raspberry pi with a heart rate sensor in sued for the IoT device and the components of the Google Cloud platform forms the data pipeline. 
 Section 1 outlines the supporting hardware targets and hardware requirements, while Section 2 gives the detailes of getting the setup 
 extablished on the Google Cloud platform. The key areas of section 2 are the creation and use of project ID, and GitBush/openSSL/Google 
-Cloud Shell for creating the the two pair of keys (private key and public key) to be used for adding devices to the IoT core registry.
+Cloud Shell for creating the two pair of keys (private key and public key) to be used for adding devices to the IoT core registry.
 Section 3 outlines the steps required for creating BigQuery Table on the Google Cloud. Section 4 to Section 8 show the remaining  steps 
-and processes required to connect the Raspberry Pi for performing data streaming on the Google Cloud platform. 
+and processes required to connect the Raspberry Pi for performing data streaming on the Google Cloud platform. The software requirments are
+also given in this section.
 The last Section 9 is about data visualization where the detailed instructions required to go through that process are given. In this, the 
 results of the data streaming are saved to the Google sheets for visualization. Some helpful links with resources are provided and all supporting 
 documents to this project are made available on GitHub for user persual. 
