@@ -216,13 +216,17 @@ If you see results, then the data is flowing properly and you are now ready to v
 * Select a **line graph** (top left option).
  
 # SUMMARY
-This project build up data pipeline that start with an Internet of Things (IoT) device that captures the heart 
-rate collected from a patient, leverage IoT core to securely publish the data to a message queue where it is transported into
-a data warehouse. In this project, a Raspberry pi with a heart rate sensor in sued for the IoT device and the components of the Google 
-Cloud platform forms the data pipeline. 
+This project build up data pipeline that start with an Internet of Things (IoT) device that captures the heart rate collected from a
+patient, leverage IoT core to securely publish the data to a message queue where it is transported intoa data warehouse. In this project,
+a Raspberry pi with a heart rate sensor in sued for the IoT device and the components of the Google Cloud platform forms the data pipeline. 
 Section 1 outlines the supporting hardware targets and hardware requirements, while Section 2 gives the detailes of getting the setup 
-extablished on the Google Cloud platform. The key areas of section 2 is the creation and use of project ID, and GitBush/openSSL/Google 
+extablished on the Google Cloud platform. The key areas of section 2 are the creation and use of project ID, and GitBush/openSSL/Google 
 Cloud Shell for creating the the two pair of keys (private key and public key) to be used for adding devices to the IoT core registry.
+Section 3 outlines the steps required for creating BigQuery Table on the Google Cloud. Section 4 to Section 8 show the remaining  steps 
+and processes required to connect the Raspberry Pi for performing data streaming on the Google Cloud platform. 
+The last Section 9 is about data visualization where the detailed instructions required to go through that process are given. In this, the 
+results of the data streaming are saved to the Google sheets for visualization. Some helpful links with resources are provided and all supporting 
+documents to this project are made available on GitHub for user persual. 
    
 
  
