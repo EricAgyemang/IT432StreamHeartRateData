@@ -145,8 +145,8 @@ We configure the Raspberry Pi by going through the following steps.
       chmod +x generate_keys.sh./generate_keys.sh
     
 * In order to transfer the created **key** to your computer so that it can later be registered with IoT Core,
-  use the **Secure File Transfer Protocol**(SFTP). 
-* The guid [here](https://www.codedonut.com/raspberry-pi/set-ssh-sftp-raspberry-pi/) to walk through the specifics
+  use the **Secure File Transfer Protocol** (SFTP). 
+* Go to the guid [here](https://www.codedonut.com/raspberry-pi/set-ssh-sftp-raspberry-pi/) to walk through the specifics
   of using **SFTP** on various operating systems.
 * In order to connect via **SFTP**, the **IP address** of the Raspberry Pi must be known. Open the **terminal window** on the 
   Raspberry Pi and type **"ifconfig"** to get the IP address required. The IP address will be listed in the wlan0 block
