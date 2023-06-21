@@ -1,19 +1,19 @@
 # INTRODUCTION
 # Using [IoT Core to Stream Heart Rate Data](https://codelabs.developers.google.com/codelabs/iotcore-heartrate#0)
-This is an example of how to build a data pipeline that starts with an Internet of Things (IoT) device that captures the heart rate, leverage IoT core to securely publish the data to a message queue where it will then be transported into a data warehouse. Here, a Raspberry Pi with a heart rate sensor is used for the IoT device and components of Google cloud platform will form the data pipeline.
+This is an example of how to build a data pipeline that starts with an Internet of Things (IoT) device that captures the heart rate, leverages IoT core to securely publish the data to a message queue where it will then be transported into a data warehouse. Here, a Raspberry Pi with a heart rate sensor is used for the IoT device, and components of the Google Cloud platform will form the data pipeline.
 
-This example is not an officially supported Google product, does not have a **SLA/SLO**, and should not be used in production
+This example is not an officially supported Google product, does not have an **SLA/SLO**, and should not be used in production
 
 
 # SECTION 1
 # Supporting Hardware Targets
 The following are currently supported hardware targets:
 * Raspberry Pi 3 Model B with power supply. 
-* SD memorry card and case.
+* SD memory card and case.
 * USB card reader.
 * Female-to-male breadboard wires.
 * Polar T34 Heart Rate Transmitter and Polar Heart Rate receiver.
-* A computer monitor or TV with HDMI input, HDMI cable, Keyboard and a mouse.
+* A computer monitor or TV with HDMI input, HDMI cable, Keyboard, and a mouse.
 * A Google Cloud Platform account (New users are eligible for a $300 free trial).
 * Gmail account.
 
@@ -110,10 +110,10 @@ From the [Cloud Console](https://console.cloud.google.com),
 We configure the Raspberry Pi by going through the following steps.
   * Booth the Raspberry Pi.
   * Select **Raspbian** for the desired operating system.
-  * Make certain your desire language is correct and click on install (Hard drive icon on the upper left portion of the window).
+  * Make certain your desired language is correct and click on install (Hard drive icon on the upper left portion of the window).
   * Click on the **wifi icon** at the top right of the screen.
-  * Select a **network**. If it is a secured network, enter the password(pre shared key).
-  * Click on the **raspberry icon** on top left of the screen.
+  * Select a **network**. If it is a secured network, enter the password(pre-shared key).
+  * Click on the **raspberry icon** on the top left of the screen.
   * Select **Preferences** and the **Raspberry Pi Configuration**.
   * From the interface tab, enable **I2C** and **SSH**.
   * From the Localisation tab, set the **Locale** and **Timezone**. 
@@ -210,31 +210,27 @@ If you see results, then the data is flowing properly and you are now ready to v
 * From the **Query results**, click on **save to Google Sheets**.
 * When the results have been saved, click on the link that says **Click to View**
 * Highlight the two columns that contain the **timecollected** and **heartrate**.
-* Select **Insert** and **Chart** from the top menue
-* If chart appears as a histogram, use the **Chart Editor** on the right side of the screen 
-  to select the drop down optionds for Chart type.
+* Select **Insert** and **Chart** from the top menu
+* If the chart appears as a histogram, use the **Chart Editor** on the right side of the screen 
+  to select the drop-down options for Chart type.
 * Select a **line graph** (top left option).
  
 # SUMMARY
-This project build up data pipeline that start with an Internet of Things (IoT) device that captures the heart rate collected from a
-patient, leverage IoT core to securely publish the data to a message queue where it is transported intoa data warehouse. In this project,
-a Raspberry pi with a heart rate sensor in sued for the IoT device and the components of the Google Cloud platform forms the data pipeline. 
-Section 1 outlines the supporting hardware targets and hardware requirements, while Section 2 gives the detailes of getting the setup 
-extablished on the Google Cloud platform. The key areas of section 2 are the creation and use of project ID, and GitBush/openSSL/Google 
+This project builds up a data pipeline that starts with an Internet of Things (IoT) device that captures the heart rate collected from a
+patient and leverages the IoT core to securely publish the data to a message queue where it is transported into a data warehouse. In this project,
+a Raspberry Pi with a heart rate sensor is used for the IoT device and the components of the Google Cloud platform form the data pipeline. 
+Section 1 outlines the supporting hardware targets and hardware requirements, while Section 2 gives the details of getting the setup 
+established on the Google Cloud platform. The key areas of section 2 are the creation and use of project ID and GitBush/OpenSSL/Google 
 Cloud Shell for creating the two pair of keys (private key and public key) to be used for adding devices to the IoT core registry.
-Section 3 outlines the steps required for creating BigQuery Table on the Google Cloud. Section 4 to Section 8 show the remaining  steps 
-and processes required to connect the Raspberry Pi for performing data streaming on the Google Cloud platform. The software requirments are
+Section 3 outlines the steps required for creating BigQuery Table on the Google Cloud. Section 4 to Section 8 show the remaining steps 
+and processes required to connect the Raspberry Pi for performing data streaming on the Google Cloud platform. The software requirements are
 also given in this section.
-The last Section 9 is about data visualization where the detailed instructions required to go through that process are given. In this, the 
-results of the data streaming are saved to the Google sheets for visualization. Some helpful links with resources are provided and all supporting 
-documents to this project are made available on GitHub for user persual. 
+The last Section 9 is about data visualization where detailed instructions are given to go through that process. In this, the 
+results of the data streaming are saved to Google Sheets for visualization. Some helpful links with resources are provided and all supporting 
+documents to this project are made available on GitHub for user perusal. 
    
-
- 
- 
  
 # For More Information
-* [Using IoT Core to Stream Heart Rate Data](https://codelabs.developers.google.com/codelabs/iotcore-heartrate#0)
 * [Using IoT Core gateways with a Raspberry Pi](https://cloud.google.com/community/tutorials/cloud-iot-gateways-rpi)
 * [Rapid Hardware Prototyping: Connect Your Raspberry Pi to Google Cloud IoT](https://lembergsolutions.com/blog/rapid-hardware-prototyping-connect-your-raspberry-pi-google-cloud-iot)
 * [Tutorial on Google IoT Core with Raspberry Pi to visualize the sensor data](https://iot4beginners.com/tutorial-on-google-iot-core-with-raspberry-pi-to-visualize-the-sensor-data/)
